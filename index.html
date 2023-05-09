@@ -5,9 +5,10 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>KayFlock</title>
   <link rel="stylesheet" href="style.css">
   <script src="https://kit.fontawesome.com/80bfb3b6e2.js" crossorigin="anonymous"></script>
+  <script src="script.js"></script>
 </head>
 
 <body>
@@ -52,8 +53,28 @@
       <img src="images/kayflock13.jpg" style="width:100%">
     </div>
   </div>
-<iframe style="border-radius:12px" src="https://open.spotify.com/embed/artist/2AMeiDbfU2vonrTkpXDKUu?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-  <p>All pictures or images are not owned or reserved by us.</p>
+  <iframe style="border-radius:12px"
+    src="https://open.spotify.com/embed/artist/2AMeiDbfU2vonrTkpXDKUu?utm_source=generator&theme=0" width="100%"
+    height="152" frameBorder="0" allowfullscreen=""
+    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+  <button onclick="showPopup()" id="subscribeBtn">Subscribe</button>
+
+  <div id="popup" style="display:none">
+    <button onclick="hidePopup()" id="close-btn">&times;</button>
+    <form method="post">
+      <h2>Subscribe to our newsletter!</h2>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required><br>
+
+      <input type="submit" value="Submit" onclick="submitted()">
+    </form>
+  </div>
+
+  <footer>
+    <p>All pictures or images are not owned or reserved by us.</p>
+    <p>Created by <a href="https://www.linkedin.com/in/aiden-onyenwenu/" id="linkColor">Aiden</a></p>
+  </footer>
 </body>
 
 </html>
