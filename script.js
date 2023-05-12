@@ -9,5 +9,5 @@ function hidePopup() {
 }
 
 function submitted() {
-  alert("Thanks for signing up!")
+  alert("Thanks for signing up to our email newsletter!")
 }
