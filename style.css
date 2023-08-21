@@ -88,6 +88,7 @@ body {
 
 .navbar-social:hover {
   color: #ffd500;
+  transition: 500ms;
 }
 
 #linkColor {
@@ -127,8 +128,18 @@ body {
 
 #popup input[type="submit"] {
   background-color: #fd7e14;
-  color: white;
+  color: #fff;
   border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#popup input[type="submit"]:hover {
+  background-color: #fff;
+  transition: 1s;
+  color: #fd7e14;
+  border: 1px #fd7e14 solid;
   padding: 10px 20px;
   border-radius: 5px;
   cursor: pointer;
