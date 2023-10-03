@@ -129,7 +129,7 @@ body {
 #popup input[type="submit"] {
   background-color: #fd7e14;
   color: #fff;
-  border: none;
+  border: 1px #fd7e14 solid;
   padding: 10px 20px;
   border-radius: 5px;
   cursor: pointer;
@@ -147,6 +147,8 @@ body {
 
 #subscribeBtn {
   background-color: #fd7e14;
+  font-family: sans-serif;
+  font-size: 15px;
   color: white;
   border: none;
   padding: 10px 20px;
