@@ -1,6 +1,6 @@
 # Kay Flock (Promotion)
 
-<img src="https://onlineimages.aidenonyenwenu.repl.co/images/Schermafbeelding 2023-11-14 171203.png">
+<img src="https://09920c83-30e2-4303-93f0-df0cbe3bf521-00-2sz05h2xczetz.worf.replit.dev/images/readme.png">
 
 ![GitHub Repo stars](https://img.shields.io/github/stars/AidenistooOP/Kayflock?color=green) ![GitHub](https://img.shields.io/github/license/AidenistooOP/Kayflock) ![](https://komarev.com/ghpvc/?username=aidenistooop&label=PROFILE+VIEWS)
 
